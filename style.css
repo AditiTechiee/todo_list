@@ -1,0 +1,120 @@
+body{
+    background-color: rgb(4, 29, 29);
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+/*-------------------------------------------------------------------*/
+
+.container{
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+input{
+    width: 270px;
+    padding: 8px;
+    border: 2px solid rgb(6, 120, 120);
+    outline: none;
+    font-size: 19px;
+}
+
+button{
+    width: 60px;
+    height: 41px;
+    background-color: rgb(4,29,29);
+    color: #fff;
+    border-radius: 2px;
+    font-size: 19px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.text ul{
+    position: relative;
+    background-color: rgb(5,31,31);
+    color: #fff;
+    font-size: 19px;
+    text-align: left;
+    padding: 7px;
+}
+
+.text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    input {
+        width: 80%;
+        font-size: 17px;
+    }
+
+    button {
+        width: 50px;
+        height: 35px;
+        font-size: 17px;
+    }
+
+    .text ul {
+        font-size: 17px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    input {
+        width: 70%;
+        font-size: 15px;
+    }
+
+    button {
+        width: 45px;
+        height: 30px;
+        font-size: 15px;
+    }
+
+    .text ul {
+        font-size: 15px;
+        padding: 4px;
+    }
+}
+
+/* Additional small adjustments for larger screens */
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 400px;
+        padding: 40px;
+    }
+
+    input {
+        width: 300px;
+    }
+
+    button {
+        width: 70px;
+        height: 45px;
+    }
+
+   
+}
+
+
